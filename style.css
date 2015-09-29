@@ -102,6 +102,7 @@ header {
 
 	.content {
 		height: 610px;
+		overflow: auto;
 	}
 
 	.content #left-block {
@@ -136,6 +137,24 @@ header {
 
 		#left-block #left-text {
 			padding-left: 30px;
+		}
+
+		#left-block #contact-us {
+			background-image: url(images/button-background.png);
+			width: 257px;
+			height: 90px;
+			margin: 0 auto;
+			margin-top: 50px;
+			text-align: center;
+			cursor: pointer;
+
+		}
+
+		#contact-us h3{
+			font-family: 'Muli', sans-serif;
+			font-size: 30px;
+			color: white;
+			margin-top: 3px;
 		}
 
 
