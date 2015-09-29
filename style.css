@@ -59,7 +59,94 @@ header {
 	height: 310px;
 	border: 2px dashed blue;
 	background-color: rgb(126,164,172);
+	position: relative;
 }
+
+	header img#folks{
+		height: 240px;
+		position: absolute;
+		bottom: 0;
+		right: 82px;
+	}
+	header img#logo{
+		opacity: 0.5;
+		float: left;
+	}
+
+	header #logodiv{
+		
+		width: 470px;
+		height: 140px;
+		margin-top: 75px;
+		margin-left: 30px;
+
+	}
+
+	header h1 {
+		text-transform: uppercase;
+		font-family: 'Muli', sans-serif;
+		font-size: 50px;
+		letter-spacing: -1px;
+		margin-left: -50px;
+		margin-top: 47px;
+		float: left;
+		padding-right: 4px;
+	}
+
+	header h1 strong {
+		color: white;
+		font-weight: bold;
+	}
+
+	/* Content Columns */
+
+	.content {
+		height: 610px;
+	}
+
+	.content #left-block {
+		float:left;
+		background-color: rgb(232,232,232);
+		width: 330px;
+		height: 100%;
+	}
+
+		#left-block h2{
+
+			font-size: 30px;
+			color: rgb(17,116,142);
+			font-family: 'Muli', sans-serif;
+			margin-top: 50px;
+
+		}
+
+		#left-block ul {
+			list-style: disc;
+			padding-left: 21px;
+			padding-right: 33px;
+			margin-top: 12px;
+
+		}
+
+		#left-block li {
+			margin-top: 3px;
+			border-bottom: 1px solid grey;
+			padding-bottom: 7px;
+		}
+
+		#left-block #left-text {
+			padding-left: 30px;
+		}
+
+
+
+
+	.content #right-block {
+		float:left;
+		background-color: white;
+		width: 628px;
+		height: 100%;
+	}
 
 
 
